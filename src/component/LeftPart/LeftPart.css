@@ -1,0 +1,114 @@
+.leftstyle{
+  z-index: 999;
+  width: 200px;
+  height: 100%;
+  float: left;
+  background: #000;
+  position:relative;
+}
+
+
+.leftstyleAppear{
+  animation:mymove;
+  -webkit-animation:mymove; /*Safari and Chrome*/
+  animation-iteration-count:1;
+  -webkit-animation-iteration-count:1; /* Safari 和 Chrome */
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  animation-duration:1s;
+  -webkit-animation-duration:1s; /* Safari 和 Chrome */
+  animation-timing-function:ease;
+  -webkit-animation-timing-function:ease; /* Safari 和 Chrome */
+}
+
+.leftstyleDisappear{
+  animation:disappearmove;
+  -webkit-animation:disappearmove; /*Safari and Chrome*/
+  animation-iteration-count:1;
+  -webkit-animation-iteration-count:1; /* Safari 和 Chrome */
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  animation-duration:1s;
+  -webkit-animation-duration:1s; /* Safari 和 Chrome */
+  animation-timing-function:ease;
+  -webkit-animation-timing-function:ease; /* Safari 和 Chrome */
+}
+
+@keyframes mymove
+{
+from {left:-250px;}
+to {left:0px;}
+}
+
+@keyframes disappearmove
+{
+from {left:0%;}
+to {left:-400px;}
+}
+
+.listgroupitem {
+    position: relative;
+    display: block;
+    margin: 10px 15px;
+    cursor: pointer;
+}
+
+.listgroupitemheading{
+  color: #fff;
+  padding: 8px 13px;
+  margin-left: 20px;
+}
+.listitemactive{
+  border: 1px solid;
+  border-color: white;
+}
+.accountinput {
+  -moz-border-radius: 5px;      /* Gecko browsers */
+  -webkit-border-radius: 5px;   /* Webkit browsers */
+  border-radius:5px;            /* W3C syntax */
+  position: fixed;
+  display: block;
+  width: 150px;
+  height: 20px;
+  padding: 4px 8px;
+  margin-left: 20px;
+  bottom:10%;
+}
+.accountpassword {
+  -moz-border-radius: 5px;      /* Gecko browsers */
+  -webkit-border-radius: 5px;   /* Webkit browsers */
+  border-radius:5px;            /* W3C syntax */
+  position: fixed;
+  display: block;
+  height: 20px;
+  width: 150px;
+  padding: 4px 8px;
+  margin-left: 20px;
+  bottom:6%;
+}
+.accountlogin {
+  -moz-border-radius: 5px;      /* Gecko browsers */
+  -webkit-border-radius: 5px;   /* Webkit browsers */
+  border-radius:5px;            /* W3C syntax */
+  width: 50px;
+  height: 20px;
+  color: black;
+  background: #fff;
+  position: fixed;
+  display: block;
+  margin-left: 40px;
+  bottom:2%;
+}
+.accountregist {
+  -moz-border-radius: 5px;      /* Gecko browsers */
+  -webkit-border-radius: 5px;   /* Webkit browsers */
+  border-radius:5px;            /* W3C syntax */
+  width: 50px;
+  height: 20px;
+  color: black;
+  background: #fff;
+  position: fixed;
+  display: block;
+  margin-left: 100px;
+  bottom:2%;
+}

@@ -1,0 +1,1 @@
+export RightPart from './RightPart';

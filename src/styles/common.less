@@ -1,0 +1,141 @@
+label{
+  font-weight:normal;
+}
+
+.modal{
+  display: block;
+}
+
+.modal-header{
+  font-size:16px;
+  font-weight:bold;
+}
+
+.modal-header i{
+  float:right;
+  cursor:pointer;
+  font-size:20px;
+}
+
+.modal-body{
+  padding:30px;
+}
+
+.error{
+  text-align:left;
+  color:red;
+}
+
+.rotate-animate{
+    animation:rotate 1s linear infinite;
+    -webkit-animation:rotate 1s linear infinite; /*Safari and Chrome*/
+}
+
+@keyframes rotate
+{
+    from {
+        transform:rotate(0deg);
+        -ms-transform:rotate(0deg); /* Internet Explorer */
+        -moz-transform:rotate(0deg); /* Firefox */
+        -webkit-transform:rotate(0deg); /* Safari 和 Chrome */
+        -o-transform:rotate(0deg); /* Opera */
+    }
+    to {
+        transform:rotate(360deg);
+        -ms-transform:rotate(360deg); /* Internet Explorer */
+        -moz-transform:rotate(360deg); /* Firefox */
+        -webkit-transform:rotate(360deg); /* Safari 和 Chrome */
+        -o-transform:rotate(360deg); /* Opera */
+    }
+}
+
+@-webkit-keyframes rotate /*Safari and Chrome*/
+{
+    from {
+        transform:rotate(0deg);
+        -ms-transform:rotate(0deg); /* Internet Explorer */
+        -moz-transform:rotate(0deg); /* Firefox */
+        -webkit-transform:rotate(0deg); /* Safari 和 Chrome */
+        -o-transform:rotate(0deg); /* Opera */
+    }
+    to {
+        transform:rotate(360deg);
+        -ms-transform:rotate(360deg); /* Internet Explorer */
+        -moz-transform:rotate(360deg); /* Firefox */
+        -webkit-transform:rotate(360deg); /* Safari 和 Chrome */
+        -o-transform:rotate(360deg); /* Opera */
+    }
+}
+.right-distance{
+  margin-right: 5px;
+}
+
+.text-right button{
+  margin-left:10px;
+}
+
+.fa{
+  margin-right:5px;
+  margin-left:5px;
+}
+
+input.trans-shadow:focus{
+  border-color: #007eff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 3px rgba(0, 126, 255, 0.1);
+}
+
+.error-field,
+.error-box .Select-control{
+  border:1px solid red;
+}
+
+.a-modal-enter .modal-dialog {
+    -webkit-transition: -webkit-transform 0.3s ease-out;
+    -o-transition: -o-transform 0.3s ease-out;
+    transition: transform 0.3s ease-out;
+    -webkit-transform: translate(0,-100%);
+    -ms-transform: translate(0,-100%);
+    -o-transform: translate(0,-100%);
+    transform: translate(0, -100%);
+}
+
+.a-modal-enter.a-modal-enter-active .modal-dialog{
+    -webkit-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    -o-transform: translate(0,0);
+    transform: translate(0, 0);
+}
+
+.a-modal-leave .modal-dialog {
+    -webkit-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    -o-transform: translate(0,0);
+    transform: translate(0, 0);
+}
+
+.a-modal-leave.a-modal-leave-active .modal-dialog {
+    -webkit-transition: -webkit-transform 0.3s ease-out;
+    -o-transition: -o-transform 0.3s ease-out;
+    transition: transform 0.3s ease-out;
+    -webkit-transform: translate(0,-100%);
+    -ms-transform: translate(0,-100%);
+    -o-transform: translate(0,-100%);
+    transform: translate(0, -100%);
+}
+
+@media (max-width:992px) {
+    .properOne_Two{
+      width: 25%;
+    }
+    .properThree{
+      width: 50%;
+    }
+}
+@media (min-width:992px) {
+  .properOne_Two{
+    width: 35%;
+  }
+  .properThree{
+    width: 30%;
+  }
+}

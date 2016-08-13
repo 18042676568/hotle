@@ -1,0 +1,43 @@
+.header-top{
+  border-bottom:none;
+  background-color: #273135;
+}
+
+.login-area{
+  color:white;
+  float:right;
+  padding-top:15px;
+}
+
+.login-area label{
+  margin-right:10px;
+  margin-left:10px;
+}
+
+.login-area label i{
+  margin-right:5px;
+}
+.htmlbackground{
+  background: url("../../images/backgd.png") repeat scroll 0 0 #E8E7E8;
+  background-image: url("../../images/backgd.png");
+  background-position-x: 0px;
+  background-position-y: 0px;
+  background-size: initial;
+  background-repeat-x: repeat;
+  background-repeat-y: repeat;
+  background-attachment: scroll;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: rgb(232, 231, 232);
+}
+.leftdefault{
+  width: 30px;
+  height: 100%;
+  background: #000;
+  position: absolute;
+}
+.rightpart{
+  margin-left: 30px;
+  position: absolute;
+  background: #fff;
+}

@@ -1,0 +1,19 @@
+.appearstyle{
+  font-size: 8px;
+  cursor: pointer;
+  background-color: #000;
+}
+.listitem{
+  position: relative;
+  display: block;
+  padding: 5px;
+  color: #fff;
+  width: 150px;
+  margin-left: 50px;
+  margin-bottom: 5px;
+}
+
+.listitemactive{
+  border: 1px solid;
+  border-color: white;
+}

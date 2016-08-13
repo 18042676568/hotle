@@ -1,0 +1,1 @@
+export LeftPart from './LeftPart';
